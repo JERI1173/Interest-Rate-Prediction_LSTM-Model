@@ -19,7 +19,7 @@ The architecture comprises: Bidirectional LSTM layers, dropout layers for regula
 2. Early stopping is implemented to halt training if the validation loss doesn't improve for a certain number of epochs.
 3. The learning rate is reduced if the validation loss plateaus to make the model converges.
 4. The best model weights are saved using model checkpointing.
-![Model Loss_train and validation](Model%20loss.png)
+<img src="Model%20loss.png" alt="Model Loss_train and validation" width="500">
 
 ### e) Evaluation:
 The trained model's performance is evaluated using the Root Mean Squared Error (RMSE) on the training, validation, and test datasets.
