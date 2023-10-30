@@ -18,7 +18,7 @@ def create_dataset(X, y, lookback=1):
     return np.array(dataX), np.array(dataY)
 
 # Load datasets
-data = pd.read_csv("SOFR_Vasicek and LSTM_EFFR and FFF and inflation exp and unemployment.csv")
+data = pd.read_csv("data.csv")
 X = data[['SOFR', 'EFFR', 'FFF', 'inflation exp', 'unemployment']][956:].values 
 y = data[['SOFR_t+1']][956:].values
 
